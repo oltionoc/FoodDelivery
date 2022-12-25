@@ -1,0 +1,144 @@
+:root {
+    /* --first: #22A39F;
+    --second: #222222;
+    --third: #434242; 
+    --text: #F3EFE0; */
+
+    /* 
+    #1C6758
+    #3D8361
+    #D6CDA4
+    #EEF2E6*/
+    
+    /* --first: #FFE3E1;
+    --second: #FFD1D1;
+    --third: #FF9494; 
+    --text: #FFF5E4;  */
+
+    --first: #1C6758;
+    --second: #3D8361;
+    --third: #EEF2E6; 
+    --fourth: #a39c7e;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.title h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    color: var(--first);
+    padding: 10px 0;
+}
+
+.title span {
+    color: var(--fourth);
+    font-style: italic;
+}
+
+.title h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--second);
+}
+
+/* Cards */
+
+.menu-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+
+.menu-cards h1 {
+    transform: rotate(-90deg);
+    font-size: 30px;
+    color: var(--second);
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: var(--first);
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container img {
+    width: 250px;
+    border-radius: 20px;
+    margin-top: -70px;
+}
+
+.content h3 {
+    color: var(--fourth);
+    margin-top: 10px;
+}
+
+.content p {
+    color: var(--third);
+    margin-top: 10px;
+}
+
+.details  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--third);
+    margin-top: 10px;
+}
+
+.details span {
+    color: var(--fourth);
+}
+
+.content button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: var(--fourth);
+    color: var(--third);
+    border-radius: 7px;
+    transition: all .5s ease-out;
+}
+
+.content button:hover {
+    background-color: var(--first);
+    border: 1px solid var(--fourth);
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: var(--first);
+    font-size: 30px;
+}
+ .coming-soon span:first-child {
+    color: var(--fourth);
+    font-style: italic;
+ }
+
+ .coming-soon span:last-child {
+    color: var(--second);
+ }

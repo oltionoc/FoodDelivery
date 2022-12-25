@@ -1,0 +1,131 @@
+:root {
+    --first: #1C6758;
+    --second: #3D8361;
+    --third: #EEF2E6; 
+    --fourth: #a39c7e;
+}
+
+/* Contact Banner */
+
+.contact-banner {
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url('../photos/food-banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--third);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.contact-banner h1 {
+    font-size: 40px;
+    color: var(--fourth);
+}
+
+.contact-banner p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.contact-banner i {
+    padding-right: 10px;
+    color: var(--second);
+}
+
+/* Form Section */
+.form {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    margin: 40px;
+}
+
+.Lform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Lform h1 {
+    font-size: 35px;
+    color: var(--first);
+}
+
+.Lform p {
+    font-size: 25px;
+    color: var(--second);
+}
+
+.mapouter {
+    padding: 20px;
+}
+
+.Rform form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Rform input {
+    margin: 5px;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 7px;
+    border-style: none;
+    outline: none;
+    background-color: var(--second);
+    color: var(--third);
+    border: 1px solid var(--first);
+    border-bottom-width: 4px;
+
+    
+}
+
+.Rform input::placeholder {
+    color: var(--third);
+}
+
+.Rform textarea {
+    background-color: var(--first);
+    color: var(--third);
+    border-style: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid var(--second);
+    border-bottom-width: 4px;
+}
+
+.Rform textarea::placeholder {
+    color: var(--third);
+}
+
+.form-btn {
+    color: var(--third);
+    background-color: var(--first);
+    border: 1px solid var(--second);
+    border-bottom-width: 4px;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.form-btn:hover {
+    color: var(--fourth);
+    background-color: var(--third);
+    border: 1px solid var(--fourth);
+}
